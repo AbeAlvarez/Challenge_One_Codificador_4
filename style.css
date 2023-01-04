@@ -1,0 +1,139 @@
+body{
+    background: #F3F5FC;
+    margin-top: 40px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+}
+
+main{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.left{
+    float: left;
+    width: 70%;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    height: 18px;
+    left: 40px;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#encriptar{
+    width: 23%;
+    height: 30px;
+    border-radius: 5px;
+    background: #0A3871;
+    color: #FFFF;
+    border: 1px solid black;
+}
+#desencriptar{
+    width: 23%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    margin-left: 8px;
+}
+
+.text-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 20em;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    caret-color: #0A3871;
+    background: #F3F5FC;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    background: #FFFF;
+    border-radius: 15px;
+}
+
+.right img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 15%;
+}
+
+.right h2, p{
+    text-align: center;
+}
+
+
+.right textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    resize:none;
+    
+}
+
+#copiar{
+    display: none;
+}
+
+#copiar{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 40%;
+    height: 30px;
+    border: 1px solid #0A3871;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 616px;
+    top: 660px;
+}
+
